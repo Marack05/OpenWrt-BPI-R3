@@ -1,0 +1,146 @@
+USER_NAME="openwrt"
+USER_SSHPUB="SSH_PUBLIC_KEY"
+USER_SHELL="/bin/bash"
+SUDO_USER="root"
+SUDO_GROUP="sudo"
+SUDO_GID="27"
+groupadd -r -g "${SUDO_GID}" "${SUDO_GROUP}"
+useradd -m -G "${SUDO_GROUP}" -s "${USER_SHELL}" "${USER_NAME}"
+passwd -l "${SUDO_USER}"
+cat << EOI > /etc/sudoers.d/00-custom
+%${SUDO_GROUP} ALL=(ALL) ALL
+EOI
+USER_HOME="$(eval echo ~"/team/${USER_NAME}")"
+mkdir -p "${USER_HOME}"/.ssh
+CAT << EOI > "${USER_HOME}"/.ssh/authorized_keys
+${USER_SSHPUB}
+EOI
+uci set dropbear.@dropbear[0].PasswordAuth="0"
+uci set dropbear.@dropbear[0].RootPasswordAuth="0"
+uci commit dropbear
+/etc/init.d/dropbear restart
+
+# We will configure the network physical adapters:
+uci -q batch << EOI
+set network.globals.default_rps_val=14
+set network.globals.default_rps_flow_cnt=256
+set network.globals.default_xps_val=14
+set network.globals.default_ps=1
+set network.eth0=device
+set network.eth0.name=eth0
+set network.lan0=device
+set network.lan0.name=lan0
+set network.lan1=device
+set network.lan1.name=lan1
+set network.lan2=device
+set network.lan2.name=lan2
+set network.lan3=device
+set network.lan3.name=lan3
+EOI
+uci commit network
+
+# This will:
+# 1. Configure the DNS provider
+# 2, Configure the IPv6 DNS provider
+# 3. Disable Peer DNS
+# 4. Make the router accessible from 10.115.0.1
+uci -q batch << EOI
+delete network.wan.dns
+add_list network.wan.dns="8.8.8.8"
+add_list network.wan.dns="8.8.4.4"
+delete network.wan6.dns
+add_list network.wan6.dns="2001:4860:4860::8888"
+add_list network.wan6.dns="2001:4860:4860::8844"
+set network.wan.peerdns="0"
+set network.wan6.peerdns="0"
+set network.lan.ipaddr='10.115.0.1'
+EOI
+uci commit network
+
+# Setup Wireless configuration
+uci -q batch << EOI
+set wireless.@wifi-device[0].disabled='0'
+set wireless.@wifi-iface[0].disabled="0"
+set wireless.@wifi-iface[0].ssid="OpenWrt-LocalNet"
+set wireless.@wifi-iface[0].key="PornOver18@"
+set wireless.@wifi-iface[0].encryption="psk2"
+EOI
+uci commit wireless
+
+/etc/init.d/network restart
+
+# This will:
+# 1. Setup DHCP hosts as the router
+# 2. DNSmasq server setup
+# 3. Setup Logging with dnsmasq
+# 4. Configure IP sets
+# 5. Setup and configure Domain name
+/etc/init.d/dnsmasq stop
+
+uci -q batch << EOI
+add dhcp host
+set dhcp.@host[-1].name='OpenWrtDHCPHost'
+set dhcp.@host[-1].ip='10.115.0.1'
+set dhcp.@host[-1].mac='a1:b2:c3:d4:e5:f6'
+delete dhcp.@dnsmasq[0].server
+add_list dhcp.@dnsmasq[0].server="8.8.8.8"
+add_list dhcp.@dnsmasq[0].server="8.8.4.4"
+set dhcp.@dnsmasq[0].localuse="1"
+set dhcp.@dnsmasq[0].logqueries="1"
+delete dhcp.doh
+set dhcp.doh="ipset"
+set dhcp.doh.instance="doh"
+add_list dhcp.doh.name="doh"
+add_list dhcp.doh.name="doh6"
+add dhcp domain
+set dhcp.@domain[-1].name="router.rackley.app"
+set dhcp.@domain[-1].ip="10.115.0.1"
+uci set dhcp.@dnsmasq[0].noresolv="1"
+uci set dhcp.@dnsmasq[0].localuse="1"
+uci -q delete dhcp.@dnsmasq[0].server
+uci add_list dhcp.@dnsmasq[0].server="10.115.0.53"
+EOI
+
+# Adjust the names of the servers
+# commit DHCP and restart dnsmasq and dnscrypt-proxy
+sed -i "32 s/.*/server_names = ['google', 'cloudflare']/" /etc/dnscrypt-proxy2/*.toml
+uci commit dhcp
+/etc/init.d/dnsmasq start
+/etc/init.d/dnscrypt-proxy restart
+
+# Setup firewall zone for the router
+uci -q batch << EOI
+delete firewall.dns_int
+rename firewall.@zone[0]='lan'
+rename firewall.@zone[1]='wan'
+rename firewall.@forwarding[0]='lan_wan'
+set firewall.dns_int="redirect"
+set firewall.dns_int.name="Intercept-DNS"
+set firewall.dns_int.src="lan"
+set firewall.dns_int.src_dport="53"
+set firewall.dns_int.proto="tcp udp"
+set firewall.dns_int.target="DNAT"
+EOI
+uci commit firewall
+
+
+# Filter DoH traffic
+for IPV in 4 6
+do
+uci -q delete firewall.doh${IPV%4}_fwd
+uci set firewall.doh${IPV%4}_fwd="rule"
+uci set firewall.doh${IPV%4}_fwd.name="Deny-DoH"
+uci set firewall.doh${IPV%4}_fwd.src="lan"
+uci set firewall.doh${IPV%4}_fwd.dest="wan"
+uci set firewall.doh${IPV%4}_fwd.dest_port="443"
+uci set firewall.doh${IPV%4}_fwd.proto="tcp udp"
+uci set firewall.doh${IPV%4}_fwd.family="ipv${IPV}"
+uci set firewall.doh${IPV%4}_fwd.ipset="doh${IPV%4} dest"
+uci set firewall.doh${IPV%4}_fwd.target="REJECT"
+done
+
+# Save Firewall and apply settings
+uci commit firewall
+/etc/init.d/firewall restart
+
+exit 0

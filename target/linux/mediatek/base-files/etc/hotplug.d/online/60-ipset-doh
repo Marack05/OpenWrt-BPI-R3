@@ -1,0 +1,14 @@
+if [ ! -e /var/lock/ipset-doh ] \
+&& lock -n /var/lock/ipset-doh
+then
+uclient-fetch -O - "https://raw.githubusercontent.com/\
+dibdot/DoH-IP-blocklists/master/doh-domains.txt" \
+| uci -q batch << EOI
+delete dhcp.doh.domain
+$(sed -e "s/^.*$/\
+del_list dhcp.doh.domain='\0'\n\
+add_list dhcp.doh.domain='\0'/")
+commit dhcp
+EOI
+lock -u /var/lock/ipset-doh
+fi
