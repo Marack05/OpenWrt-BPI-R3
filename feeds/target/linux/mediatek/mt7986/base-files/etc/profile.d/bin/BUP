@@ -1,0 +1,53 @@
+#!/bin/bash
+BUPP="$HOME/bup"
+argval=$( realpath "$@" )
+fname=$( echo "$@" | sed 's/^[\/]*.*\///' )
+ftype=$( echo "$argval" | sed 's/.*[\/]*\.//' | sed 's/\/*.*\/.*//' )
+if [[ ! -d "$BUPP/misc" ]]; then
+	mkdir -p "$BUPP/misc"
+fi
+if [ -z "$ftype" ]; then
+	argsol="$BUPP/misc/$fname"
+	if [ -f "$argsol.bak3" ]; then
+		rm -f "$argsol.bak3"
+		mv -f "$argsol.bak2" "$argsol.bak3"
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	elif [ -f "$argsol.bak2" ]; then
+		mv -f "$argsol.bak2" "$argsol.bak3"
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	elif [ -f "$argsol.bak" ]; then
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	else
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	fi
+else
+	mkdir -p "$BUPP/$ftype"
+	argsol="$BUPP/$ftype/$fname"
+	if [ -f "$argsol.bak3" ]; then
+		rm -f "$argsol.bak3"
+		mv -f "$argsol.bak2" "$argsol.bak3"
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	elif [ -f "$argsol.bak2" ]; then
+		mv -f "$argsol.bak2" "$argsol.bak3"
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp "$argsol" "$argsol.bak"
+		exit 0
+	elif [ -f "$argsol.bak" ]; then
+		mv -f "$argsol.bak" "$argsol.bak2"
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	else
+		exec cp -f "$argval" "$argsol.bak"
+		exit 0
+	fi
+fi
+

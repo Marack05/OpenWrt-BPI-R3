@@ -1,0 +1,310 @@
+Package: ddnsto
+Version: 3.0.2-aarch64-6
+Depends: libc
+Section: net
+Architecture: all
+Installed-Size: 1351916
+Filename: ddnsto_3.0.2-aarch64-6_all.ipk
+Size: 1349504
+SHA256sum: 1e5aa74c9027c65c0e49290e10db18e1b362853024ce5bdb48df6ca16f561eed
+Description:  DDNS.to is a reverse proxy
+
+Package: filebrowser
+Version: 2.23.0-1
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 9416853
+Filename: filebrowser_2.23.0-1_aarch64_cortex-a53.ipk
+Size: 9405591
+SHA256sum: 7b5c92474472e70072d9529d78d60b3013af2ff358a4db5aaccbefbadf25caa0
+Description:  filebrowser provides a file managing interface within a specified directory
+ and it can be used to upload, delete, preview, rename and edit your files.
+ It allows the creation of multiple users and each user can have its own directory.
+ It can be used as a standalone app or as a middleware.
+
+Package: koolproxy
+Version: 3.8.5-1
+Depends: libc
+Section: multimedia
+Architecture: aarch64_cortex-a53
+Installed-Size: 574282
+Filename: koolproxy_3.8.5-1_aarch64_cortex-a53.ipk
+Size: 575178
+SHA256sum: 574fa9ac413b94bb6fe0d50f8a203c962f5eb13fa3490fda4d74dd4d8c5e56b6
+Description:  koolproxy bin is from koolshare
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: aarch64_cortex-a53
+Installed-Size: 2636
+Filename: lua-maxminddb_0.2-1_aarch64_cortex-a53.ipk
+Size: 3360
+SHA256sum: 2749835b04ee52966c8ea26dfcbadec465fae47d6adc251f6b1cfe6378eab9de
+Description:  libmaxminddb bindings for lua
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 4539
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5346
+SHA256sum: 597804b1e2a764aefe496499a5c695835d800b808e53db2e62c3cd735c91009a
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-advanced
+Version: 1.20-20220218
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 13077
+Filename: luci-app-advanced_1.20-20220218_all.ipk
+Size: 13803
+SHA256sum: 62a366b42cbb53a0a73c994c2a5f5d1389bfe34487aad62bcb1721655cd1e230
+Description:  LuCI Support for advanced and filebrowser
+
+Package: luci-app-ddnsto
+Version: 3.0.3
+Depends: libc, ddnsto, block-mount
+Section: luci
+Architecture: all
+Installed-Size: 75778
+Filename: luci-app-ddnsto_3.0.3_all.ipk
+Size: 76757
+SHA256sum: 75535394a97ef0dbd8b86b0afd4c9c5248909a4442d87ee5b873078b321c7e8f
+Description:  LuCI support for ddnsto
+
+Package: luci-app-dnsfilter
+Version: 1.0
+Depends: libc, curl, dnsmasq-full, ipset
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 8128
+Filename: luci-app-dnsfilter_1.0_all.ipk
+Size: 8911
+SHA256sum: b5a71799396c5d2e98a38fae9e87eb6629b95815c98380c833639e75b025fd5e
+Description:  LuCI support for DNSFilter
+
+Package: luci-app-filebrowser
+Version: snapshot
+Depends: libc, filebrowser
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 2099
+Filename: luci-app-filebrowser_snapshot_all.ipk
+Size: 2972
+SHA256sum: 9cba0ae38d17f594215e84744d5c0eeeb91797da26be1d9e47a8d165481d3ce4
+Description:  LuCI Support for FileBrowser
+
+Package: luci-app-ikoolproxy
+Version: 3.8.5
+Depends: libc, koolproxy, openssl-util, ipset, dnsmasq-full, iptables-mod-nat-extra, wget
+Section: luci
+Architecture: all
+Installed-Size: 16613
+Filename: luci-app-ikoolproxy_3.8.5_all.ipk
+Size: 17570
+SHA256sum: 243d635730afa5949285b1c3e1a4aa3b9dfdd670b50831c60e5d607706fc12ce
+Description:  LuCI support for koolproxy
+
+Package: luci-app-openclash
+Version: 0.45.78-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 4241083
+Filename: luci-app-openclash_0.45.78-beta_all.ipk
+Size: 4224747
+SHA256sum: e27cd77fc0ed2cab4b364ad918b3a512d8665e0ac18c799bef82c897cb27e53d
+Description:  A LuCI support for clash
+
+Package: luci-app-pushbot
+Version: 3.60
+Depends: libc, iputils-arping, curl, jq
+Section: luci
+Architecture: all
+Installed-Size: 26994
+Filename: luci-app-pushbot_3.60_all.ipk
+Size: 27970
+SHA256sum: 04dc88d45e5a7e9cc7dbb5ded2050589cf6240c396ac206fdcba6236eb5692b3
+Description:  LuCI support for Pushbot
+
+Package: luci-app-serverchan
+Version: 2.01.4
+Depends: libc, iputils-arping, curl, jq
+Section: luci
+Architecture: all
+Installed-Size: 52972
+Filename: luci-app-serverchan_2.01.4_all.ipk
+Size: 53998
+SHA256sum: 6bd0a2c09b52a58ce492c6d0e7b2de4b228ef09e5bfc7c64a83858cddb3d3503
+Description:  LuCI support for serverchan
+
+Package: luci-app-store
+Version: 0.1.12-9
+Depends: luci-lib-taskd (>=1.0.17), libc, curl, opkg, luci-base, tar, coreutils, coreutils-stat, libuci-lua, mount-utils, luci-lib-taskd
+Section: luci
+Architecture: all
+Installed-Size: 92951
+Filename: luci-app-store_0.1.12-9_all.ipk
+Size: 93957
+SHA256sum: 1fdb10b56e6bd62f8e7cffa70451c37a2b4ecbcbc3ed145bfd735b2d197ad9b8
+Description:  luci-app-store is a ipk store developed by LinkEase team
+
+Package: luci-lib-taskd
+Version: 1.0.17
+Depends: taskd (>=1.0.3-1), libc, luci-lib-xterm, taskd
+Section: luci
+Architecture: all
+Installed-Size: 6078
+Filename: luci-lib-taskd_1.0.17_all.ipk
+Size: 6918
+SHA256sum: 20e66187689736e9c3051b8ae8f68823c74457fa3240f89645d4c752867e5e72
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 77219
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 78108
+SHA256sum: c2fd2e9203f33fa5b2325b6fbf40a40db4409298db87bd24bd4aad32023c6079
+Description:  Xterm.js library
+
+Package: luci-theme-argon
+Version: 2.2.9.5
+Depends: libc, curl, jsonfilter
+Section: luci
+Architecture: all
+Installed-Size: 414579
+Filename: luci-theme-argon_2.2.9.5_all.ipk
+Size: 415218
+SHA256sum: 9addad238169998a2b6084d65c5869997acc8c184d8bee8ffa35e598ee1bd6e5
+Description:  Argon Theme
+
+Package: luci-theme-argonne
+Version: 1.7.3
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 360068
+Filename: luci-theme-argonne_1.7.3_all.ipk
+Size: 360853
+SHA256sum: 4334c55b5b2ab73ddea92c7bf99eeda2cffb92c24f4fa8e81b19e3e279804fc3
+Description:  Argonne kenzo
+
+Package: luci-theme-atmaterial_new
+Version: 1.2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 610820
+Filename: luci-theme-atmaterial_new_1.2_all.ipk
+Size: 611560
+SHA256sum: b5389fea1fe1c423c8f08b7d0db79558ff5b45243eee6af9e24eb4532e6ea9bc
+Description:  Atmaterial_new kenzo
+
+Package: luci-theme-ifit
+Version: 1.6-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2120271
+Filename: luci-theme-ifit_1.6-1_all.ipk
+Size: 2121131
+SHA256sum: fa334c9d9c6f28f6dff52f024c4389181d369c1c542c1c3da8b1478102c4bb3e
+Description:  Ifit by kenzo
+
+Package: luci-theme-mcat
+Version: 0.2.50-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 208419
+Filename: luci-theme-mcat_0.2.50-1_all.ipk
+Size: 209268
+SHA256sum: 1f2a047b3721a74f24316809edb81918a8b37037e73cab0b31d480c6982453c9
+Description:  Mcat new kenzo
+
+Package: luci-theme-neobird
+Version: 2.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 307711
+Filename: luci-theme-neobird_2.0_all.ipk
+Size: 308662
+SHA256sum: 161f5752cbcef3589c4596d17da4b2ca690443a2b756c7a63e908736eb46f925
+Description:  Neobird Theme
+
+Package: luci-theme-opentopd
+Version: 1.5.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 501578
+Filename: luci-theme-opentopd_1.5.0_all.ipk
+Size: 502528
+SHA256sum: 4d4b54204b2bf79b34f9df416fd8822e39fa31d298279d139145f1b1a87ff99d
+Description:  LuCI luci-theme-opentopd theme
+
+Package: luci-theme-tomato
+Version: git-23.032.44215-3464846
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 209555
+Filename: luci-theme-tomato_git-23.032.44215-3464846_all.ipk
+Size: 210480
+SHA256sum: 91f8aa0ee03c5cdd8eeb69fa2ca0633e225eb443a4d8881e2576b688fa4a11ce
+Description:  Tomato new kenzo
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 5822
+Filename: microsocks_1.0.3-1_aarch64_cortex-a53.ipk
+Size: 6620
+SHA256sum: efbcb772b219c046a540c8180c34d3c2ed05c808c1c33eacdb9a70c91d51b23b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: taskd
+Version: 1.0.3-1
+Depends: libc, procd, script-utils, coreutils-stty
+Section: utils
+Architecture: all
+Installed-Size: 1631
+Filename: taskd_1.0.3-1_all.ipk
+Size: 2405
+SHA256sum: d2d0bd5fcf251383dce86c795b89322107769b0994eb2e58fa5e82e45ae5abc1
+Description:  Simple Task Manager based on procd
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 3538
+Filename: tcping_0.3-1_aarch64_cortex-a53.ipk
+Size: 4254
+SHA256sum: 6a74a06116d78ea4f70ba406f249740ed32f4b33fa1bb00e227a4ee6b5e7efd7
+Description:  tcping measures the latency of a tcp-connection
+
