@@ -1,0 +1,20 @@
+BT_PRODID="a12/1/"
+BT_PRODID_HOT="${PRODUCT::6}"
+ 
+#logger -t hotplug "PRODUCT ID is ${BT_PRODID_HOT}"
+ 
+if [ "${BT_PRODID_HOT}" = "${BT_PRODID}" ]; then
+    if [ "${ACTION}" = "add" ]; then
+        logger -t hotplug "bluetooth device has been plugged in!"
+        if [ "${BSBTID_NEW}" = "${BSBTID_OLD}" ]; then
+            logger -t hotplug "bluetooth device hasn't changed"
+        else
+            logger -t hotplug "bluetooth device has changed"
+        fi
+    fi
+    if [ "${ACTION}" = "remove" ]; then
+        logger -t hotplug "bluetooth device has been removed!"
+    fi
+else
+    logger -t hotplug "USB device is not bluetooth"
+fi
