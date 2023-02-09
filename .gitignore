@@ -1,0 +1,12 @@
+.feeds*
+.ccache/*
+files/*
+tmp/*
+logs/*
+build_dir/*
+staging_dir/*
+key-build*
+.config.old
+.feeds.conf.default.swp
+bin/*
+dl/*
