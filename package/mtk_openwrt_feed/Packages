@@ -1,0 +1,90 @@
+Package: atenl
+Version: 1
+Depends: libc, libnl-tiny2022-05-17
+License: GPLv2
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 38220
+Filename: atenl_1_aarch64_cortex-a53.ipk
+Size: 38836
+SHA256sum: ec567defd17cdb5a9a4b6f87711394735f143e5d446cb54b58318705b8137bc9
+Description:  testmode daemon for nl80211
+
+Package: mii_mgr
+Version: 1
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 2646
+Filename: mii_mgr_1_aarch64_cortex-a53.ipk
+Size: 3313
+SHA256sum: ce9ca7fbb5a017db7ea7417c10a927758ff297015d9c50c0ce5d19d764eb1345
+Description:  An mdio r/w phy regs program.
+
+Package: mt76-vendor
+Version: 1
+Depends: libc, libnl-tiny2022-05-17
+License: GPLv2
+Section: devel
+Architecture: aarch64_cortex-a53
+Installed-Size: 7502
+Filename: mt76-vendor_1_aarch64_cortex-a53.ipk
+Size: 8224
+SHA256sum: 76d7381acecca013e375a67e2a43d1850305ae08a52e25f22b93f5b33e21ac25
+Description:  vendor cmd for mt76
+
+Package: mtk_factory_rw
+Version: 1-r16554-1d4dea6d4f
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 1468
+Filename: mtk_factory_rw_1-r16554-1d4dea6d4f_aarch64_cortex-a53.ipk
+Size: 2207
+SHA256sum: e883ae69e7597bab9c33f706c5aac50a4680da6df49d2edaa526cbef27cf5e11
+Description:  mtk factory's data read and write
+
+Package: mtk_failsafe
+Version: 1-r16554-1d4dea6d4f
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 556
+Filename: mtk_failsafe_1-r16554-1d4dea6d4f_aarch64_cortex-a53.ipk
+Size: 1283
+SHA256sum: c8c3849885495eaa8423cd2e57b4f987e3df70c1dc3f9ddded8f5476ddb4aa9a
+Description:  mtk init script for failsafe mode
+
+Package: mtkhnat_util
+Version: 1-r16554-1d4dea6d4f
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2643
+Filename: mtkhnat_util_1-r16554-1d4dea6d4f_aarch64_cortex-a53.ipk
+Size: 3325
+SHA256sum: 7be4fda208e0ebb1c718004eac9fdf2fede659f3f93405d9e670de3152fe226c
+Description:  mtk hnat util to init hnat module
+
+Package: regs
+Version: 1
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 2568
+Filename: regs_1_aarch64_cortex-a53.ipk
+Size: 3287
+SHA256sum: 73523eb8be1a77f0efde83040d1db89374c3a345ab0d1494ab53915ee7279289
+Description:  Simple program to read/write from/to a pci device from userspace.
+
+Package: switch
+Version: 1
+Depends: libc, libnl-tiny2022-05-17
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 29794
+Filename: switch_1_aarch64_cortex-a53.ipk
+Size: 30530
+SHA256sum: 4feebd6a172becd44dc09ed6b9155fd5f539e9dac88106db261b0d15d5933e20
+Description:  An program to config switch.
+

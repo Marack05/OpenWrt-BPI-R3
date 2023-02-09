@@ -1,0 +1,251 @@
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/small/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: pexcn <i@pexcn.me>
+Architecture: aarch64_cortex-a53
+Installed-Size: 17764
+Filename: chinadns-ng_1.0-beta.25-1_aarch64_cortex-a53.ipk
+Size: 18554
+SHA256sum: 19bfe4618b1c02d5b5832811ea52ab506b401d26e201768200c050b70b9af320
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/small/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: ghostmaker
+Architecture: aarch64_cortex-a53
+Installed-Size: 11218
+Filename: dns2socks_2.1-2_aarch64_cortex-a53.ipk
+Size: 12029
+SHA256sum: 213615b7e1f5b17c51405c008cf4282f775060ba1f1d2f3b1ce4465b2cce5d6c
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/small/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12058
+Filename: dns2tcp_1.1.0-1_aarch64_cortex-a53.ipk
+Size: 12841
+SHA256sum: cb8bd22594277cb79eaeb33f9293e47135235796c7496d0c2d2a5232f021359b
+Description:  utility to convert dns query from udp to tcp
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/small/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 28180
+Filename: ipt2socks_1.1.3-3_aarch64_cortex-a53.ipk
+Size: 28927
+SHA256sum: 354a7326ae07e12ecc01ac74aafad6f65aaab2de7df0de9ce0b67075dc61dbff
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: feeds/small/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 92205
+Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a53.ipk
+Size: 93119
+SHA256sum: 5ad09d95d189c1f05551813fad7996ad653a9ddae5a7fc625d74fe02e154c2dd
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/small/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2768669
+Filename: shadowsocks-rust-sslocal_1.15.2-1_aarch64_cortex-a53.ipk
+Size: 2759851
+SHA256sum: dc0703fd3e65e8f325f0a7c8ebcc3ddb796df494767c42e1dcc1668184aff1ff
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/small/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1919583
+Filename: shadowsocks-rust-ssserver_1.15.2-1_aarch64_cortex-a53.ipk
+Size: 1912786
+SHA256sum: 7ee7421cf1cf0207936396d19613c462bbdfe8d2d983bc5ff6ef481ace762ad2
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 2587
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 3333
+SHA256sum: f93e0a33d37ad6f790ef8541a8bfc9bc81baa5eb07ad7286ba5de818a9fe3986
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 61953
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 62698
+SHA256sum: 4d02608ddce154e8235910bf1532121c2f182e3b04d57f91fc8b8ae23a374274
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 55650
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 56374
+SHA256sum: 27200f402043a3dcaf2a1252811005d77edb72759d38bc31e41bdb4fc2b5581b
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Architecture: aarch64_cortex-a53
+Installed-Size: 64712
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 65458
+SHA256sum: fe163cdc8034b84c1c0cb55f7ba8f61d48b91f4275867aee3800fdbe6720e09c
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/small/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 31106
+Filename: simple-obfs_0.0.5-1_aarch64_cortex-a53.ipk
+Size: 31849
+SHA256sum: ee84b73863b1a52a890beee6c7ddb524a94c5d12cda7b3c23b585d6553d34410
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: feeds/small/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4613145
+Filename: trojan-go_0.10.6-1_aarch64_cortex-a53.ipk
+Size: 4599911
+SHA256sum: 9958b381e12e72f783fa7841b0e0e36863fa3b2e8b31f848463bfeeb4a452ddc
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/small/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: Trojan-Plus-Group
+Architecture: aarch64_cortex-a53
+Installed-Size: 368612
+Filename: trojan-plus_10.0.3-2_aarch64_cortex-a53.ipk
+Size: 369379
+SHA256sum: 9fd8bfaa17c92796cb656a3a65f735055561faf5d3d9ce2d6cea831c5089242c
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: feeds/small/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1675250264
+Maintainer: GreaterFire
+Architecture: aarch64_cortex-a53
+Installed-Size: 263385
+Filename: trojan_1.16.0-2_aarch64_cortex-a53.ipk
+Size: 264114
+SHA256sum: 0a1358133469b9de65fe1c170a49e81fde95aeb1f72f3887d688c6581b356472
+Description:  An unidentifiable mechanism that helps you bypass GFW
+

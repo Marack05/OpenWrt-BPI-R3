@@ -1,0 +1,324 @@
+Package: ahcpd
+Version: 0.53-3
+Depends: libc, ip, librt
+Source: feeds/routing/ahcpd
+SourceName: ahcpd
+License: MIT
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1578751706
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23343
+Filename: ahcpd_0.53-3_aarch64_cortex-a53.ipk
+Size: 24208
+SHA256sum: 96f0cb3f8797b7875a66a0192c5d69b971c735c7e67058c515f3910c29247fee
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: alfred
+Version: 2021.1-1
+Depends: libc, libnl-tiny2022-05-17, librt, lua, libgps29
+Source: feeds/routing/alfred
+SourceName: alfred
+License: GPL-2.0-only MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
+Section: net
+SourceDateEpoch: 1621358288
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 29486
+Filename: alfred_2021.1-1_aarch64_cortex-a53.ipk
+Size: 30706
+SHA256sum: 4c623a7bb2d2a5cb2967ef903a1c95ecba25f6fe3a8fa34d45236609ae32cb57
+Description:  alfred is a user space daemon for distributing arbitrary local information
+ over the mesh/network in a decentralized fashion. This data can be anything
+ which appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: babeld
+Version: 1.11-1
+Depends: libc, libubus20210630, libubox20210516
+Source: feeds/routing/babeld
+SourceName: babeld
+License: MIT
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1648725134
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>, Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>, Nick Hainke <vincent@systemli.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 69748
+Filename: babeld_1.11-1_aarch64_cortex-a53.ipk
+Size: 70869
+SHA256sum: e7763e6fcab42a2863f9782455ddbce44a28007edf2fa47fdfd9a209f18b4b95
+Description:  Babel is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4
+ with fast convergence properties. It is based on the ideas in DSDV, AODV and
+ Cisco's EIGRP, but is designed to work well not only in wired networks but
+ also in wireless mesh networks, and has been extended with support for
+ overlay networks. Babel is in the process of becoming an IETF Standard.
+
+Package: batctl-full
+Version: 2021.1-1
+Depends: libc, libnl-tiny2022-05-17, librt
+Provides: batctl
+Alternatives: 300:/usr/sbin/batctl:/usr/libexec/batctl-full
+Source: feeds/routing/batctl
+SourceName: batctl-full
+License: GPL-2.0-only ISC MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT LICENSES/deprecated/ISC
+Section: net
+SourceDateEpoch: 1621358258
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 52992
+Filename: batctl-full_2021.1-1_aarch64_cortex-a53.ipk
+Size: 53990
+SHA256sum: db52b33d2576f32ea18b150767cdf51496d30d8efd7b7eec6924c57800793937
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.1 of the user space utility.
+ Subcommands for configuration, online and offline debugging are enabled.
+
+Package: cjdns
+Version: v21-3
+Depends: libc, kmod-tun, libnl-tiny2022-05-17, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
+Source: feeds/routing/cjdns
+SourceName: cjdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647174574
+Maintainer: William Fleurant <meshnet@protonmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 403822
+Filename: cjdns_v21-3_aarch64_cortex-a53.ipk
+Size: 404064
+SHA256sum: 6a045cab14f201f6434a24482852eb5543d7a477fee35adeff956ff62264d54d
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-cjdns
+Version: 1.3-8
+Depends: libc, cjdns, luci-compat, luci-base
+Source: feeds/routing/luci-app-cjdns
+SourceName: luci-app-cjdns
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1591759243
+Maintainer: William Fleurant <meshnet@protonmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5606
+Filename: luci-app-cjdns_1.3-8_aarch64_cortex-a53.ipk
+Size: 6515
+SHA256sum: 52dd32a092c9bcb0f6791b9e4688cf2cde385c26200547c870d09fea1bc69156
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-hnet
+Version: 2018-12-21-c4376661-1
+Depends: libc
+Source: feeds/routing/hnetd
+SourceName: luci-app-hnet
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: luci
+SourceDateEpoch: 1608186485
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 56781
+Filename: luci-app-hnet_2018-12-21-c4376661-1_aarch64_cortex-a53.ipk
+Size: 57643
+SHA256sum: d9d3f7b41529501b477e47b3517209757b021c908fafad5f13a9c3b8d2580c23
+Description:  HNCP Homenet configuration and visualization
+
+Package: luci-lib-dracula
+Version: 6
+Depends: libc
+Source: feeds/routing/luci-app-bmx6
+SourceName: luci-lib-dracula
+License: GPL-2.0+
+Section: luci
+SourceDateEpoch: 1592237333
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23285
+Filename: luci-lib-dracula_6_aarch64_cortex-a53.ipk
+Size: 24013
+SHA256sum: df5a870b298e247b7c86f2e30e64c98fa5bca8e040fe4985b080e73c0bd639c0
+Description:  dracula graph javascript library
+
+Package: luci-lib-jquery-1-4
+Version: 6
+Depends: libc
+Source: feeds/routing/luci-app-bmx6
+SourceName: luci-lib-jquery-1-4
+License: GPL-2.0+
+Section: luci
+SourceDateEpoch: 1592237333
+Maintainer: Gui Iribarren <gui@altermundi.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 24823
+Filename: luci-lib-jquery-1-4_6_aarch64_cortex-a53.ipk
+Size: 25566
+SHA256sum: 8c69293cf16a7f39c269812d0c1d8f0c0e06a6ef8e2d2379b4e7b26facb17b26
+Description:  minified javascript jQuery 1.4 library
+
+Package: mesh11sd
+Version: 1.0.0-1
+Depends: libc
+Source: feeds/routing/mesh11sd
+SourceName: mesh11sd
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1649496342
+Maintainer: Rob White <rob@blue-wave.net>
+Architecture: all
+Installed-Size: 2922
+Filename: mesh11sd_1.0.0-1_all.ipk
+Size: 4161
+SHA256sum: c95f432aa37e1c9191596d9828e3225693e2fb76028cfac24088dd0c5a5a5efc
+Description:  Mesh11sd is a dynamic parameter configuration daemon for 802.11s mesh networks.
+ It was originally designed to leverage 802.11s mesh networking at Captive Portal venues.
+ This is the open source version and it enables easy and automated mesh network operation with multiple mesh nodes.
+ It allows all mesh parameters supported by the wireless driver to be set in the uci config file.
+ Settings take effect immediately without having to restart the wireless network.
+ Default settings give rapid and reliable layer 2 mesh convergence.
+ Without mesh11sd, many mesh parameters cannot be set in the uci wireless config file as the mesh interface must be up before the parameters can be set.
+ Some of those that are supported, would fail to be implemented when the network is (re)started resulting in errors or dropped nodes.
+ The mesh11sd daemon dynamically checks configured parameters and sets them as required.
+ This version does not require a Captive Portal to be running.
+
+Package: olsrd-mod-jsoninfo
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-jsoninfo
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1648317640
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23894
+Filename: olsrd-mod-jsoninfo_2021-06-12-4973feb5-7_aarch64_cortex-a53.ipk
+Size: 24683
+SHA256sum: 9d57b7baa4730e06de0ab46d7a5bd2b578ba3195450ae12191535f30abe22923
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-nameservice
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-nameservice
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1648317640
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12720
+Filename: olsrd-mod-nameservice_2021-06-12-4973feb5-7_aarch64_cortex-a53.ipk
+Size: 13462
+SHA256sum: 2af0af8d6c8c744f1a8b12d29e0d7cf727fa18aba36a7a03b7adb6e6127794b2
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-txtinfo
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-txtinfo
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1648317640
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 15929
+Filename: olsrd-mod-txtinfo_2021-06-12-4973feb5-7_aarch64_cortex-a53.ipk
+Size: 16704
+SHA256sum: 53fb4b7aa131bb59e35b7c132e06a02381e9f9d9ae05fe7630537be0942e8256
+Description:  Small informative web server plugin
+
+Package: olsrd
+Version: 2021-06-12-4973feb5-7
+Depends: libc, libpthread, libubus20210630
+Source: feeds/routing/olsrd
+SourceName: olsrd
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1648317640
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 147638
+Filename: olsrd_2021-06-12-4973feb5-7_aarch64_cortex-a53.ipk
+Size: 148351
+SHA256sum: c41991915499b58b1ebaa1962d11ff1bc67d05545d65783e76e2bfc10fcab1b2
+Description:  OLSR (Optimized Link State Routing) daemon
+
+Package: opennds
+Version: 9.7.0-1
+Depends: libc, libpthread, iptables-mod-ipopt, libmicrohttpd-no-ssl
+Conflicts: nodogsplash, nodogsplash2
+Source: feeds/routing/opennds
+SourceName: opennds
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1647983382
+Maintainer: Rob White <rob@blue-wave.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 144352
+Filename: opennds_9.7.0-1_aarch64_cortex-a53.ipk
+Size: 144892
+SHA256sum: 3a1c4946c0451d1c939af5ba273fa4bfdb904a59125e626c6cf8e8537aa6910e
+Description:  openNDS is a Captive Portal solution that offers an instant way to provide restricted access to the Internet.
+ With little or no configuration, a dynamically generated and adaptive splash page sequence is automatically served.
+ Both client driven Captive Portal Detection (CPD) and gateway driven Captive Portal Identification (CPI - RFC 8910 and RFC 8908) are supported.
+ Internet access is granted by either a click to continue button, or after credential verification as a result of filling in a login form.
+ The package incorporates the FAS API allowing many flexible customisation options.
+ The creation of sophisticated third party authentication applications is fully supported.
+ Internet hosted https portals can be implemented with no security errors, to inspire maximum user confidence.
+ This release requires iptables(legacy)
+
+Package: vis
+Version: 1440-2
+Depends: libc, libpthread
+Source: feeds/routing/vis
+SourceName: vis
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1564392935
+Maintainer: Corinna "Elektra" Aichele <onelektra@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12098
+Filename: vis_1440-2_aarch64_cortex-a53.ipk
+Size: 12861
+SHA256sum: b6963bee2d87ef8ffb60315819c556d83add979c9518a2456838dcf7bb66a2f5
+Description:  visualization server for B.A.T.M.A.N. layer 3
+
+Package: zonestitcher
+Version: 2020-05-22-0dfef1eb-3
+Depends: libc, libubox20210516
+Source: feeds/routing/ohybridproxy
+SourceName: zonestitcher
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1638975174
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9505
+Filename: zonestitcher_2020-05-22-0dfef1eb-3_aarch64_cortex-a53.ipk
+Size: 10357
+SHA256sum: e284d7ac7ec40ba5fea49336c7d70d19b64d6fbea04a8a914c64a4967d7ed69e
+Description:  This package provides a statically configured daemon for translating DNS
+ requests to Multicast DNS and back again.
+

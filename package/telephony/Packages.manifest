@@ -1,0 +1,1934 @@
+Package: asterisk-app-agent-pool
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-agent-pool
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 21929
+Filename: asterisk-app-agent-pool_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 22717
+SHA256sum: d3e138c74eb479d123ec814d35175416ad8346c0e110df6aff673b2f182efbd7
+Description:  Call center agent pool applications.
+
+Package: asterisk-app-alarmreceiver
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-alarmreceiver
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8161
+Filename: asterisk-app-alarmreceiver_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 8964
+SHA256sum: fcb334f1928e9ad14c6fb588b20a60d917428bacfe6802f3297a7219d0067ce7
+Description:  Alarm receiver for Asterisk.
+
+Package: asterisk-app-amd
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-amd
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6833
+Filename: asterisk-app-amd_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 7683
+SHA256sum: 1546740618a29fc29eb1584d809c2d07573e001962d3ca16b6f374efde99af81
+Description:  Answering Machine Detection application.
+
+Package: asterisk-app-attended-transfer
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-attended-transfer
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2680
+Filename: asterisk-app-attended-transfer_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3467
+SHA256sum: f8b8b56c839f060ab72e159c2c87925d4f778dcca280df94d8ebc978ac4acead
+Description:  Queues up an attended transfer to a given extension.
+
+Package: asterisk-app-authenticate
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-authenticate
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3492
+Filename: asterisk-app-authenticate_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4272
+SHA256sum: 6407e0ef47475cbff1c9fbb5db8a430d12fcf7800d676c9859fac1b1cb209556
+Description:  Authentication application.
+
+Package: asterisk-app-bridgeaddchan
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-bridgeaddchan
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2942
+Filename: asterisk-app-bridgeaddchan_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3715
+SHA256sum: 8bd2c7ae9f6b369b68f9e5703adf2239d2ef85b304a322353018fc3ab2a2576b
+Description:  Bridge-add-channel application.
+
+Package: asterisk-app-channelredirect
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-channelredirect
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2502
+Filename: asterisk-app-channelredirect_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3278
+SHA256sum: 68f90c6b1ef3ccaaf2030179bddd1fa7e743de16763e5a84477d8a2113b5cd86
+Description:  Redirects a given channel to a dialplan target.
+
+Package: asterisk-app-chanspy
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-chanspy
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12644
+Filename: asterisk-app-chanspy_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 13434
+SHA256sum: bc1b71192c0624b7e30a51ae98e2915f8e3d111aca92a2866832a92e7f0a86f2
+Description:  Listen to the audio of an active channel.
+
+Package: asterisk-app-confbridge
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-bridge-builtin-features, asterisk-bridge-simple, asterisk-bridge-softmix
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-confbridge
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 65067
+Filename: asterisk-app-confbridge_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 65888
+SHA256sum: 0a3b31d98ba13c729357daeb37c935a7ba34b95984c4f22b808ccd5e8756f3f6
+Description:  Conference bridge application.
+
+Package: asterisk-app-controlplayback
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-controlplayback
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3753
+Filename: asterisk-app-controlplayback_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4536
+SHA256sum: 95e031fbaf4eeae947fb49ee61792645500989df15055bccc6dab04ed257c63b
+Description:  Control playback application.
+
+Package: asterisk-app-dictate
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-dictate
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4354
+Filename: asterisk-app-dictate_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5129
+SHA256sum: 1dd392ab6e81d20924fbb8e78c43131c51e62adc6feb49acec7804f049185d42
+Description:  Virtual dictation machine.
+
+Package: asterisk-app-directed-pickup
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-directed-pickup
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4416
+Filename: asterisk-app-directed-pickup_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5207
+SHA256sum: 54b91bcfc29c52ad26a8b486a94866fefdbbfdc11804ba9c275c03c0b363fa95
+Description:  Directed call pickup application.
+
+Package: asterisk-app-disa
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-disa
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5600
+Filename: asterisk-app-disa_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6378
+SHA256sum: bab389aca1e900a4ba80f3b779833d869a1cabae9e80570517539f9c5ca0db8c
+Description:  Direct Inward System Access application.
+
+Package: asterisk-app-mixmonitor
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-mixmonitor
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 17032
+Filename: asterisk-app-mixmonitor_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 17837
+SHA256sum: 78a4e621246ecd61f616d68ea3aa6fb14be7bc7d6373f1be1945f80f5aa416eb
+Description:  Mixed audio monitoring application.
+
+Package: asterisk-app-originate
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-originate
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4812
+Filename: asterisk-app-originate_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5543
+SHA256sum: 8192bf1a086fc9b8696303dfae6b627dc00ccc1dcad1994a13391eeba44f21a3
+Description:  Originate call.
+
+Package: asterisk-app-page
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-app-confbridge
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-page
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4717
+Filename: asterisk-app-page_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5467
+SHA256sum: e6341766b97429f82c4eaec8db02285747b1836c78afdce31a2d8e219f746f7a
+Description:  Page multiple phones.
+
+Package: asterisk-app-playtones
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-playtones
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2206
+Filename: asterisk-app-playtones_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 2964
+SHA256sum: 3eb6a8a1caae3a586d874bb95729f8d1e5eed29c711367d55081a48502dc265b
+Description:  Playtones application.
+
+Package: asterisk-app-privacy
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-privacy
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3095
+Filename: asterisk-app-privacy_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3897
+SHA256sum: 019520f8f50e60e233b30d886a025c27d6514190505115246a85e17b4ba9043c
+Description:  Require phone number to be entered if no Caller ID sent.
+
+Package: asterisk-app-queue
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-queue
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 93209
+Filename: asterisk-app-queue_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 94070
+SHA256sum: c4fd459ded24c072274cb9578c2dead3eac2d8870349959094d8acc335d656a0
+Description:  True call queueing.
+
+Package: asterisk-app-read
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-read
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3770
+Filename: asterisk-app-read_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4554
+SHA256sum: 68a2973da78db5a4ebfc32406285a6938630db897346994e8954f737d6776817
+Description:  Read variable application.
+
+Package: asterisk-app-record
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-record
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5268
+Filename: asterisk-app-record_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6016
+SHA256sum: 6f5c275ddefa43d68b783f33a7632e53707a8cfc850385cfe15423bad1508e45
+Description:  Trivial record application.
+
+Package: asterisk-app-saycounted
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-saycounted
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2740
+Filename: asterisk-app-saycounted_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3533
+SHA256sum: 55040d835cad1ff2e24676eb4beafc1f1e4373d1122abeab6e11875c035978fa
+Description:  Decline words according to channel language.
+
+Package: asterisk-app-sayunixtime
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-sayunixtime
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2685
+Filename: asterisk-app-sayunixtime_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3450
+SHA256sum: 11ee8d90eb1d905e959bd7abcd87ac839736b6c139a36e38e3b861e524244ebe
+Description:  Say time.
+
+Package: asterisk-app-sendtext
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-sendtext
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2860
+Filename: asterisk-app-sendtext_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3639
+SHA256sum: c90ee006b18a2f3dda76de4aa05386c5730bc94738035d83664e671bbd6ee793
+Description:  Send text applications.
+
+Package: asterisk-app-skel
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-skel
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7980
+Filename: asterisk-app-skel_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 8828
+SHA256sum: 2228b5f4f7ac388d5da045cc3d4a6151cb1e0b0e359a6b857fbf17894b4c04a0
+Description:  Skeleton application.
+
+Package: asterisk-app-sms
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-sms
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 15859
+Filename: asterisk-app-sms_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 16620
+SHA256sum: 6cbe89b1bdee705795d58ca8cad20e71881bba972547a32508757490910395ce
+Description:  SMS/PSTN handler.
+
+Package: asterisk-app-softhangup
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-softhangup
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2889
+Filename: asterisk-app-softhangup_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3674
+SHA256sum: 7df8b5bb4f6023b639658fb8867a59a331d6bdc3950670abf0a13b6e7ceb80a5
+Description:  Hangs up the requested channel.
+
+Package: asterisk-app-stack
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-agi
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-stack
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 13747
+Filename: asterisk-app-stack_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 14516
+SHA256sum: 333ee08bf2115c92bd6bcc0c57654906e5744f83f0e70b2f05876862002dd81b
+Description:  Dialplan subroutines.
+
+Package: asterisk-app-url
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-url
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2617
+Filename: asterisk-app-url_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3388
+SHA256sum: 40f33f0438c5bbf04c3a1a65349d8e3b5e5a776a979e6881a394494217c1e29d
+Description:  Send URL applications.
+
+Package: asterisk-app-userevent
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-userevent
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2718
+Filename: asterisk-app-userevent_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3492
+SHA256sum: 3c41d83b5f122f65364264dbf2a66926ade89942920f6177d2451ac6c13ae4de
+Description:  Custom user event application.
+
+Package: asterisk-app-voicemail
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-voicemail
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 641314
+Filename: asterisk-app-voicemail_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 642231
+SHA256sum: 76d11f4bc711931f36873ac74ea79e7a013d57e7c02f3722f49c774b8a4ab215
+Description:  Voicemail module.
+
+Package: asterisk-app-waitforring
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-waitforring
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2535
+Filename: asterisk-app-waitforring_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3302
+SHA256sum: be99184c9698b305502e4fc83005aca95143e9534753cc84162e211cb5a5d67a
+Description:  Waits until first ring after time.
+
+Package: asterisk-app-zapateller
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-app-zapateller
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2639
+Filename: asterisk-app-zapateller_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3423
+SHA256sum: b29f0d6a54f16415bfc28a2051cdbea2bc29494b31ceb653897c844c7e31c227
+Description:  Block telemarketers with special information tone.
+
+Package: asterisk-bridge-builtin-features
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-bridge-builtin-features
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6844
+Filename: asterisk-bridge-builtin-features_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 7659
+SHA256sum: 77aaed6d712490d7017134ddd0535c6723e398d393358429731942ee27049827
+Description:  Built in bridging features.
+
+Package: asterisk-bridge-holding
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-bridge-holding
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4160
+Filename: asterisk-bridge-holding_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4942
+SHA256sum: ded374217bec1d02f4a051ded4d992ee0477882af2707bbce49c4875fe371112
+Description:  Holding bridge module.
+
+Package: asterisk-bridge-native-rtp
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-bridge-native-rtp
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10464
+Filename: asterisk-bridge-native-rtp_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 11276
+SHA256sum: 6fe39320304939354b82bdfb2301c83c35aa3b8068f727af9c869d33352b181f
+Description:  Native RTP bridging module.
+
+Package: asterisk-bridge-simple
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-bridge-simple
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3304
+Filename: asterisk-bridge-simple_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4084
+SHA256sum: 6bf67458ea8efd0c902b002179cd7e1d3f1cdcbc897bda2fd3fe5210891b0a3c
+Description:  Simple two channel bridging module.
+
+Package: asterisk-bridge-softmix
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-bridge-softmix
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23364
+Filename: asterisk-bridge-softmix_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 24168
+SHA256sum: e5ae2014c122df745f254fd6043d8954af90a5c0b6c5f27deb869a0b61c5eea0
+Description:  Multi-party software based channel mixing.
+
+Package: asterisk-pbx-loopback
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-pbx-loopback
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3320
+Filename: asterisk-pbx-loopback_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4081
+SHA256sum: b152829bdc86449b88fd85cfb04d07dfaf580b4f9caf55c1c782dddb98d67d46
+Description:  Loopback switch.
+
+Package: asterisk-pbx-realtime
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-pbx-realtime
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6153
+Filename: asterisk-pbx-realtime_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6948
+SHA256sum: 2d250df357e6404091a90f982b99aae6f087182cd37fa5af843a2e560edcdd6a
+Description:  Realtime switch.
+
+Package: asterisk-pgsql
+Version: 18.5.1-2
+Depends: libc, asterisk, libpq
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-pgsql
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40078
+Filename: asterisk-pgsql_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 40921
+SHA256sum: 64f379bd089d12898544e6e1ae2f3791f340006b87dcf9b9a33f854a721fdccb
+Description:  PostgreSQL support.
+
+Package: asterisk-res-agi
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-speech
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-agi
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32975
+Filename: asterisk-res-agi_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 33725
+SHA256sum: 60c1331c7c2f3f9943e680a5dad471726d84b3fcfb6dafecf5dd111cddf97b79
+Description:  Asterisk Gateway Interface.
+
+Package: asterisk-res-ari-applications
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-applications
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4716
+Filename: asterisk-res-ari-applications_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5527
+SHA256sum: 11b2ee72cc0ceaca4d8b95fb505ab7551b85c874e26ec293b72e259d977d7f94
+Description:  RESTful API module - Stasis application resources.
+
+Package: asterisk-res-ari-asterisk
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-asterisk
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10154
+Filename: asterisk-res-ari-asterisk_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 10959
+SHA256sum: 03cfe629b6cc68c345b932891c6a3e965eaa115a6f22a9b8cd4439b62232468c
+Description:  RESTful API module - Asterisk resources.
+
+Package: asterisk-res-ari-bridges
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-playback
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-bridges
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 14612
+Filename: asterisk-res-ari-bridges_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 15393
+SHA256sum: 13b59613b4a82df677bb4ab113fcd6335b33e6052fe7f409ab24c9852563842f
+Description:  RESTful API module - bridge resources.
+
+Package: asterisk-res-ari-channels
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-answer, asterisk-res-stasis-playback, asterisk-res-stasis-snoop
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-channels
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 24454
+Filename: asterisk-res-ari-channels_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 25258
+SHA256sum: 59e62ed47b7bc973ae6e585f385fce457d4f4632f92bb4c65f99b1de0b25d2b0
+Description:  RESTful API module - channel resources.
+
+Package: asterisk-res-ari-device-states
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-device-state
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-device-states
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2988
+Filename: asterisk-res-ari-device-states_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3788
+SHA256sum: efbbd0b60bf9ed4e5cfb46ede0d222ea6adfb4d9269f7d0adfdec0b7077c436a
+Description:  RESTful API module - device state resources.
+
+Package: asterisk-res-ari-endpoints
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-endpoints
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5691
+Filename: asterisk-res-ari-endpoints_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6510
+SHA256sum: c10b72fb9bd8895b4a5804a9c0a51555ad42476ae5c3a4f87daff5737992dfd3
+Description:  RESTful API module - endpoint resources.
+
+Package: asterisk-res-ari-events
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-events
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11838
+Filename: asterisk-res-ari-events_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 12574
+SHA256sum: b9b18f89256d58ce03764ad2c700a16dbb2679f2e6e47067ef4446bd251051b1
+Description:  RESTful API module - WebSocket resource.
+
+Package: asterisk-res-ari-mailboxes
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-mailbox
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-mailboxes
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3023
+Filename: asterisk-res-ari-mailboxes_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3825
+SHA256sum: c10a3385c29d8af201f8269aa04bf70657a7584701e5a64b600d0071737a2aaa
+Description:  RESTful API module - mailboxes resources.
+
+Package: asterisk-res-ari-model
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-model
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 29008
+Filename: asterisk-res-ari-model_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 29697
+SHA256sum: 561612989156e6f5956e507d497100eb6331237b82ad8600957fb14f48b20924
+Description:  ARI model validators.
+
+Package: asterisk-res-ari-playbacks
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-playback
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-playbacks
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3221
+Filename: asterisk-res-ari-playbacks_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4020
+SHA256sum: 08b6dad98b9e82ddb53888889a7baef53f5d52ae57b22b60f43e1fbc6dad81aa
+Description:  RESTful API module - playback control resources.
+
+Package: asterisk-res-ari-recordings
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis-recording
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-recordings
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5596
+Filename: asterisk-res-ari-recordings_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6383
+SHA256sum: e469bbba11ee67604a024b11933b81ed67a0b2536fc0ebcb39af5409d5f55236
+Description:  RESTful API module - recording resources.
+
+Package: asterisk-res-ari-sounds
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-ari, asterisk-res-ari-model, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari-sounds
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4440
+Filename: asterisk-res-ari-sounds_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5248
+SHA256sum: 610a5cc9ce164c6121c232a27abe9569e886575a1a17f5de07a38bd96be4eb35
+Description:  RESTful API module - sound resources.
+
+Package: asterisk-res-ari
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-http-websocket
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-ari
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23080
+Filename: asterisk-res-ari_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 23869
+SHA256sum: 0021cb346caacb28e50e03399454aabaf41a00353fceed44478963294b69f581
+Description:  Asterisk RESTful Interface.
+
+Package: asterisk-res-audiosocket
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-audiosocket
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4690
+Filename: asterisk-res-audiosocket_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5475
+SHA256sum: 27402ac179148eb82b70686d5633bd915429f39d2860eebc922bfdcca7c1fc69
+Description:  Audiosocket resource module.
+
+Package: asterisk-res-calendar-caldav
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-calendar, libical, libneon
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-calendar-caldav
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11241
+Filename: asterisk-res-calendar-caldav_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 12020
+SHA256sum: 142697450402652e1e7c2e98571b8d5cc8317abf3c9be74813c2b843d81d32c2
+Description:  Asterisk CalDAV calendar integration.
+
+Package: asterisk-res-calendar-exchange
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-calendar, libical, libiksemel, libneon
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-calendar-exchange
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10415
+Filename: asterisk-res-calendar-exchange_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 11243
+SHA256sum: 75e7df09c6fb99a702cfd8d6141920aafb747475a389268c4d7282815b82b4d8
+Description:  Asterisk MS Exchange calendar integration.
+
+Package: asterisk-res-calendar-icalendar
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-calendar, libical, libneon
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-calendar-icalendar
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9088
+Filename: asterisk-res-calendar-icalendar_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 9919
+SHA256sum: 333597f067e8693d1c7e1252213c365c30d791447cf60f605b9d1dbfd31a34b6
+Description:  Asterisk iCalendar .ics file integration.
+
+Package: asterisk-res-calendar
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-calendar
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 22494
+Filename: asterisk-res-calendar_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 23284
+SHA256sum: cf88bda03ef216e2d3dbe75b7885b834db4178622f92e61109970bc6b30de4ae
+Description:  Asterisk calendar integration.
+
+Package: asterisk-res-clialiases
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-clialiases
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7242
+Filename: asterisk-res-clialiases_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 8076
+SHA256sum: 9058e3d193152aab18104e991b0f96e098e1e1b79d6da5bd71152e1ba15144bf
+Description:  CLI aliases.
+
+Package: asterisk-res-clioriginate
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-clioriginate
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4021
+Filename: asterisk-res-clioriginate_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4811
+SHA256sum: 706e0b34b9afa3713398b4aa3a8d05b469cecc594f4000f0e253b1975d1e19c7
+Description:  Call origination and redirection from the CLI.
+
+Package: asterisk-res-config-ldap
+Version: 18.5.1-2
+Depends: libc, asterisk, libopenldap
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-config-ldap
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18067
+Filename: asterisk-res-config-ldap_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 18942
+SHA256sum: b1967eea2a4f475cf2c2ec652481ef1f09dae0821b45ef5d1b5334a9fa153410
+Description:  LDAP realtime interface.
+
+Package: asterisk-res-config-mysql
+Version: 18.5.1-2
+Depends: libc, asterisk, libmysqlclient3
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-config-mysql
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 19900
+Filename: asterisk-res-config-mysql_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 20702
+SHA256sum: d4bec39366118d873a24e9450ea226b0cf2fd575a98e7269b7d63d0186097a6a
+Description:  MySQL realtime configuration driver.
+
+Package: asterisk-res-config-sqlite3
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-config-sqlite3
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 13282
+Filename: asterisk-res-config-sqlite3_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 14043
+SHA256sum: 94f44af91dfead60d3eed2fee016986243885fd7c3ef1b0cc3d37e291180d398
+Description:  SQLite3 realtime config engine.
+
+Package: asterisk-res-convert
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-convert
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2996
+Filename: asterisk-res-convert_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3783
+SHA256sum: e9924d77c798bdc6115ccc4ea528129ead0918eefa51410bd7a28dd7da3bd436
+Description:  File format conversion CLI command.
+
+Package: asterisk-res-endpoint-stats
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-statsd
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-endpoint-stats
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3082
+Filename: asterisk-res-endpoint-stats_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3854
+SHA256sum: 63bb6fead7faf05dabedacab3c7e78fa3b2129d58d8a68cf2e2bc9668ed32e6f
+Description:  Endpoint statistics.
+
+Package: asterisk-res-http-websocket
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-http-websocket
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 16207
+Filename: asterisk-res-http-websocket_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 16918
+SHA256sum: f3dd7db0409a21ce4d1fcc78c3bf7a7687b6ecc4892ac53331508bd2f18defc1
+Description:  HTTP WebSocket support.
+
+Package: asterisk-res-limit
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-limit
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3368
+Filename: asterisk-res-limit_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 4126
+SHA256sum: 366d634720ef28b63f6924bf34c5398a6b533b5b821b74c7a85325610cd65dc8
+Description:  Resource limits.
+
+Package: asterisk-res-manager-devicestate
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-manager-devicestate
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2723
+Filename: asterisk-res-manager-devicestate_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3512
+SHA256sum: fcc6963ad5cb74f2a6dc3afa9bae26d4149eac0cfaf11dec89ecd56db055ce52
+Description:  Manager device state topic forwarder.
+
+Package: asterisk-res-musiconhold
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-musiconhold
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 25499
+Filename: asterisk-res-musiconhold_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 26275
+SHA256sum: 5a9a2a36243480557e044ecbdcc9ccec745163e58aeaf72c289ee61d6a26554f
+Description:  Music On Hold resource.
+
+Package: asterisk-res-mwi-external
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-mwi-external
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4932
+Filename: asterisk-res-mwi-external_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5704
+SHA256sum: 8e1420c77d95540cbf3443133d04ebbc80cd5818601fc75fa1548c04bfe7e7b0
+Description:  Core external MWI resource.
+
+Package: asterisk-res-speech
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-speech
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4268
+Filename: asterisk-res-speech_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 5051
+SHA256sum: 2edfe97f6840d819ae78b422323a05e9ff13992499108b4bf8e039f1cfcba92e
+Description:  Generic speech recognition API.
+
+Package: asterisk-res-stasis-answer
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-answer
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2094
+Filename: asterisk-res-stasis-answer_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 2862
+SHA256sum: e767f01bfdee95c3b32d13b70dcb2e9cfdcec67d60e947c9efb802f49ea9c012
+Description:  Stasis application answer support.
+
+Package: asterisk-res-stasis-device-state
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-device-state
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6870
+Filename: asterisk-res-stasis-device-state_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 7679
+SHA256sum: f6fc6368d62e0d08fd9c6f1d76d4986cf3062fd23e13864333efbffea7da50dc
+Description:  Stasis application device state support.
+
+Package: asterisk-res-stasis-mailbox
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis, asterisk-res-mwi-external
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-mailbox
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2754
+Filename: asterisk-res-stasis-mailbox_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 3545
+SHA256sum: ca60b69c4c6a217c824915121c383006845d13d35a444eae685c988e1380682f
+Description:  Stasis application mailbox support.
+
+Package: asterisk-res-stasis-playback
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis-recording
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-playback
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8948
+Filename: asterisk-res-stasis-playback_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 9767
+SHA256sum: 726e5111f03d608c907d24c715d1e75adad091ff234493d694b4f847d33197b0
+Description:  Stasis application playback support.
+
+Package: asterisk-res-stasis-recording
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-recording
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11064
+Filename: asterisk-res-stasis-recording_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 11847
+SHA256sum: d18b7538bbcec84d0f7d79f47c7cd0e9ed78273d86b3267ca95f04b57e6c5e05
+Description:  Stasis application recording support.
+
+Package: asterisk-res-stasis-snoop
+Version: 18.5.1-2
+Depends: libc, asterisk, asterisk-res-stasis-recording
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis-snoop
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5774
+Filename: asterisk-res-stasis-snoop_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 6562
+SHA256sum: 86b96fb199e270709d37e5a1e868b176b639248d29c3f153d1f98ea4f2ac72be
+Description:  Stasis application snoop support.
+
+Package: asterisk-res-stasis
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-stasis
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 49494
+Filename: asterisk-res-stasis_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 50332
+SHA256sum: 7776e67b2f7c330a26dc1470d7aab198203cb0e818da0da160685a74cddf9a9e
+Description:  Stasis application support.
+
+Package: asterisk-res-statsd
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-res-statsd
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6569
+Filename: asterisk-res-statsd_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 7409
+SHA256sum: 3065521f899ccc4c6809666b8d5b31e730a44b4cfe314b4a0c69760ebfddd105
+Description:  Statsd client support.
+
+Package: asterisk-sounds
+Version: 18.5.1-2
+Depends: libc, asterisk
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk-sounds
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1923777
+Filename: asterisk-sounds_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 1924995
+SHA256sum: 56f7ef5942dff01ac20eda935155e82ebfbbd92631cf84b7d326c515bd90523c
+Description:  This package provides the sound-files for Asterisk.
+
+Package: asterisk
+Version: 18.5.1-2
+Depends: libc, uclibcxx, jansson4, libcap, libedit, libopenssl1.1, libsqlite3-0, libuuid1, libxml2, zlib
+Source: feeds/telephony/net/asterisk
+SourceName: asterisk
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Require-User: asterisk=385:asterisk=385
+SourceDateEpoch: 1636481572
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1198303
+Filename: asterisk_18.5.1-2_aarch64_cortex-a53.ipk
+Size: 1196988
+SHA256sum: 06063261b016f40157553d58046cd2be9d67b01ed7b7661f3f44ed909e02faf4
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+
+Package: baresip-mod-aubridge
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-aubridge
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3085
+Filename: baresip-mod-aubridge_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3847
+SHA256sum: 387c184bf074534445e0be35b654b99704640b93938a52c3e37eca12f7414452
+Description:  Audio bridge module
+
+Package: baresip-mod-b2bua
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-b2bua
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3304
+Filename: baresip-mod-b2bua_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 4072
+SHA256sum: 34da366dfddea7259e0648044163b3b196cbbdf2ab474bf5b98caa929c9e67eb
+Description:  Back-to-Back User-Agent module
+
+Package: baresip-mod-cons
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-cons
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2713
+Filename: baresip-mod-cons_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3474
+SHA256sum: 7aa0c9e15fb01dd08758f5081ed097a8b0638d468f4f930809186f1435f7f580
+Description:  UDP/TCP console UI driver
+
+Package: baresip-mod-ctrl-tcp
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-ctrl-tcp
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5246
+Filename: baresip-mod-ctrl-tcp_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 6014
+SHA256sum: 12d15c7893814d54d0d06a7a7d5640d4a55a160d330d90b2872e4204eb505acd
+Description:  TCP control interface
+
+Package: baresip-mod-dtls-srtp
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-dtls-srtp
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5441
+Filename: baresip-mod-dtls-srtp_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 6213
+SHA256sum: 2287187a9a5dba4a59e5bd27e3429b1d77d2ff5dc995d6e7119f4bd7c6108b66
+Description:  DTLS-SRTP end-to-end encryption
+
+Package: baresip-mod-evdev
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-evdev
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6933
+Filename: baresip-mod-evdev_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 7721
+SHA256sum: 3906af7413bd8bb3fd328443b1b3586d91cf9aec1dd0c703cf98d8cdefad418b
+Description:  Linux input driver
+
+Package: baresip-mod-httpd
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-httpd
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2585
+Filename: baresip-mod-httpd_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3346
+SHA256sum: ebdfc1bd2f5c25a1371798100b2731663a6158b55c59c38ab19c08e101aca6f5
+Description:  HTTP webserver UI-module
+
+Package: baresip-mod-mwi
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-mwi
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2819
+Filename: baresip-mod-mwi_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3585
+SHA256sum: 737199b909a1220da019e021d75e1d84ee17a5588193b64d377f0b3e630ca931
+Description:  Message Waiting Indication
+
+Package: baresip-mod-portaudio
+Version: 1.0.0-1
+Depends: libc, baresip, portaudio
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-portaudio
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2665
+Filename: baresip-mod-portaudio_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3427
+SHA256sum: 05eccea6988445f074be8693aefc2dc0000553e644ff77951c3f0b6154392ec4
+Description:  Portaudio audio driver
+
+Package: baresip-mod-rtcpsummary
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-rtcpsummary
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2060
+Filename: baresip-mod-rtcpsummary_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 2815
+SHA256sum: 84f96912cf41f1a0a5b6ba80a818ad4af54caeaa252f6584de8daeb7aa6c7273
+Description:  RTCP summary module
+
+Package: baresip-mod-selfview
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-selfview
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2592
+Filename: baresip-mod-selfview_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3353
+SHA256sum: 062c6d8613c2a23e8588c9a8bb90c81da783ffff85b2bc3aa48679adf8834fc0
+Description:  Video selfview module
+
+Package: baresip-mod-srtp
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-srtp
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4513
+Filename: baresip-mod-srtp_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 5279
+SHA256sum: f223961fa872f058b82a64e147ecbb79f0c063e636b875a10154c87fbdc13724
+Description:  Secure RTP module using libre
+
+Package: baresip-mod-uuid
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-uuid
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1847
+Filename: baresip-mod-uuid_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 2644
+SHA256sum: b3675c56e4d235d590d89719a809fae2a23285c3e2b7c594adcb115b7fb43e58
+Description:  UUID generator and loader
+
+Package: baresip-mod-v4l2-codec
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-v4l2-codec
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4599
+Filename: baresip-mod-v4l2-codec_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 5382
+SHA256sum: 2717f12dfb431b90b0aee118617708e6107250c6c2a61059d0c16373218c0f2e
+Description:  Video4Linux2 video codec module
+
+Package: baresip-mod-v4l2
+Version: 1.0.0-1
+Depends: libc, baresip, libv4l
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-v4l2
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4315
+Filename: baresip-mod-v4l2_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 5090
+SHA256sum: 139e9a612d2acfdd688cba670ffac3a1e8a6f0570542c5bfe22779ffe273af16
+Description:  Video4Linux2 video source
+
+Package: baresip-mod-vidbridge
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-vidbridge
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2518
+Filename: baresip-mod-vidbridge_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 3276
+SHA256sum: 5d05890548d1a3883b1f1f87264b38c9b5fef635fab44f5403ac668abfaba758
+Description:  Video bridge module
+
+Package: baresip-mod-vidloop
+Version: 1.0.0-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-vidloop
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6271
+Filename: baresip-mod-vidloop_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 7066
+SHA256sum: 67e284ed9c58c0d2f00d427c3d0d69104735352edaa3f95edf0b0c044b9ba349
+Description:  Video-loop test module
+
+Package: baresip-mod-vp8
+Version: 1.0.0-1
+Depends: libc, baresip, libvpx1.9
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-vp8
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4107
+Filename: baresip-mod-vp8_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 4881
+SHA256sum: c91eb7588cf79c2ce6226c1a62a717be952165db67e1507ceb1f01f781ae6ce4
+Description:  VP8 video codec
+
+Package: baresip-mod-vp9
+Version: 1.0.0-1
+Depends: libc, baresip, libvpx1.9
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-vp9
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4685
+Filename: baresip-mod-vp9_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 5449
+SHA256sum: b036dc4688e42d18296996292b9e928f66a3a57caef1b33be23c366aa79cf707
+Description:  VP9 video codec
+
+Package: baresip
+Version: 1.0.0-1
+Depends: libc, libre, librem
+Source: feeds/telephony/net/baresip
+SourceName: baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Require-User: baresip=374:baresip=374
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 667912
+Filename: baresip_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 668343
+SHA256sum: a15e4b2281ae5642e37f0bd237a47651fd85d48e3cb6029e98ea746253d16231
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: dahdi-cfg
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi, libpthread, dahdi-tools-libtonezone
+Source: feeds/telephony/libs/dahdi-tools
+SourceName: dahdi-cfg
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1609427848
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 29074
+Filename: dahdi-cfg_3.1.0-2_aarch64_cortex-a53.ipk
+Size: 29855
+SHA256sum: cbe0c8366c33ceee799af4c39b2235c114fa14f4e20a333f299c5955f3d8b6bf
+Description:  DAHDI tools dahdi_cfg, dahdi_scan and fxotune
+
+Package: dahdi-monitor
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi
+Source: feeds/telephony/libs/dahdi-tools
+SourceName: dahdi-monitor
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1609427848
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10492
+Filename: dahdi-monitor_3.1.0-2_aarch64_cortex-a53.ipk
+Size: 11230
+SHA256sum: 74fc6b616c94eb231b6410ac7a9a74e5eddac637c28dda67770241dd2679bebe
+Description:  DAHDI tools dahdi_monitor, dahdi_speed and dahdi_test
+
+Package: dahdi-tools-libtonezone
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi
+Source: feeds/telephony/libs/dahdi-tools
+SourceName: dahdi-tools-libtonezone
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1609427848
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9933
+Filename: dahdi-tools-libtonezone_3.1.0-2_aarch64_cortex-a53.ipk
+Size: 10583
+SHA256sum: 87ab834473736750d9b15b9ce223ba35edceb4f6a24a7a11dafdf48b01d288fa
+Description:  DAHDI tonezone library
+
+Package: gsm-utils
+Version: 1.10-20140304-2
+Depends: libc, gsmlib
+Source: feeds/telephony/libs/gsmlib
+SourceName: gsm-utils
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1520806814
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 42997
+Filename: gsm-utils_1.10-20140304-2_aarch64_cortex-a53.ipk
+Size: 43225
+SHA256sum: 59ca7af76cd2a33edd08c724d6355b8d956c4f8e04d6ba06498c1d9c7876ddae
+Description:  Some simple command line programs to access GSM mobile phones via GSM modems.
+
+Package: gsmlib
+Version: 1.10-20140304-2
+Depends: libc, uclibcxx
+Source: feeds/telephony/libs/gsmlib
+SourceName: gsmlib
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1520806814
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 117352
+Filename: gsmlib_1.10-20140304-2_aarch64_cortex-a53.ipk
+Size: 118127
+SHA256sum: fea7c90e56100ca2fb8b797cdd52b161d4deb6b9ca73988b49335c1e3f36de5e
+Description:  A library to access GSM mobile phones via GSM modems.
+
+Package: libiksemel
+Version: 1.4-2
+Depends: libc, libgnutls
+Source: feeds/telephony/libs/iksemel
+SourceName: libiksemel
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1521181730
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23020
+Filename: libiksemel_1.4-2_aarch64_cortex-a53.ipk
+Size: 23895
+SHA256sum: 580c047a3e435761ccd49a56baf8b95070b03047af581142b2e9e404bf6e9b89
+Description:  Iksemel is an XML parser library mainly designed for Jabber applications.
+ It provides SAX, DOM, and special Jabber stream APIs. Library is coded
+ in ANSI C except the network code (which is POSIX compatible), thus
+ highly portable.
+
+Package: libre
+Version: 1.0.0-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/telephony/libs/re
+SourceName: libre
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1601713956
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 200953
+Filename: libre_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 201417
+SHA256sum: 98d618a3dfae73b236248ed927472396b0a2ad977e129bb11a2f7c753e14547b
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.6.0-2
+Depends: libc, libre
+Source: feeds/telephony/libs/rem
+SourceName: librem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1570908053
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 27744
+Filename: librem_0.6.0-2_aarch64_cortex-a53.ipk
+Size: 28542
+SHA256sum: 2c4a9ef3ae77b0e0db127d56a4109bbdd4396184575e285fe52e297e65998ffc
+Description:  Audio and video processing media library
+
+Package: sipgrep
+Version: 2019-06-27-1cc00079-2
+Depends: libc, libpcap1, libpcre
+Source: feeds/telephony/net/sipgrep
+SourceName: sipgrep
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1594838100
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23931
+Filename: sipgrep_2019-06-27-1cc00079-2_aarch64_cortex-a53.ipk
+Size: 24780
+SHA256sum: 73dd08e0386911e7fd1938cbfd92b8bc56e9b6b93f4f1707afe93ee12fb64355
+Description:  Powerful pcap-aware command line tool to sniff, capture, display and
+ troubleshoot SIP signaling over IP networks, allowing the user to
+ specify extended regular expressions matching against SIP headers.
+
+Package: sngrep
+Version: 1.4.8-1
+Depends: libc, libncursesw6, libopenssl1.1, libpcap1, libpcre
+Source: feeds/telephony/net/sngrep
+SourceName: sngrep
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1616173516
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 74314
+Filename: sngrep_1.4.8-1_aarch64_cortex-a53.ipk
+Size: 74795
+SHA256sum: 40b782dd08795dcd988d8cb5f250478df64d9ded17cbb2f579480779b33b211f
+Description:  sngrep is a tool for displaying SIP calls message flows from terminal.
+ 
+ It supports live capture to display realtime SIP packets and can also be
+ used as PCAP viewer.
+
