@@ -1,41 +1,34 @@
 # SPDX-License-Identifier: GPL-2.0-only
 config NET_VENDOR_MEDIATEK
-	bool "MediaTek ethernet driver"
-	depends on ARCH_MEDIATEK || SOC_MT7621 || SOC_MT7620
-	---help---
+	bool "MediaTek devices"
+	depends on ARCH_MEDIATEK || SOC_MT7621 || SOC_MT7620 || COMPILE_TEST
+	help
 	  If you have a Mediatek SoC with ethernet, say Y.
 
 if NET_VENDOR_MEDIATEK
 
+config NET_MEDIATEK_SOC_WED
+	depends on ARCH_MEDIATEK || COMPILE_TEST
+	def_bool NET_MEDIATEK_SOC != n
+
 config NET_MEDIATEK_SOC
 	tristate "MediaTek SoC Gigabit Ethernet support"
+	depends on NET_DSA || !NET_DSA
+	select PINCTRL
 	select PHYLINK
-	---help---
+	select DIMLIB
+	select PAGE_POOL
+	select PAGE_POOL_STATS
+	help
 	  This driver supports the gigabit ethernet MACs in the
 	  MediaTek SoC family.
 
-config MEDIATEK_NETSYS_V2
-	tristate "MediaTek Ethernet NETSYS V2 support"
-	 depends on ARCH_MEDIATEK && NET_MEDIATEK_SOC
-	---help---
-	  This options enable MTK Ethernet NETSYS V2 support
-
-config MEDIATEK_NETSYS_V3
-	tristate "MediaTek Ethernet NETSYS V3 support"
-	depends on ARCH_MEDIATEK && NET_MEDIATEK_SOC
-	---help---
-	  This options enable MTK Ethernet NETSYS V3 support for
-	  XGMAC and USXGMII.
-
-	  If you have a network system belong to this class, say Y.
-	  If unsure, say N.
-
-config NET_MEDIATEK_HNAT
-	tristate "MediaTek HW NAT support"
-	depends on NET_MEDIATEK_SOC && NF_CONNTRACK && IP_NF_NAT
-	---help---
-	  This driver supports the hardward Network Address Translation
-	  in the MediaTek MT7986/MT2701/MT7622/MT7629/MT7621 chipset
-	  family.
+config NET_MEDIATEK_STAR_EMAC
+	tristate "MediaTek STAR Ethernet MAC support"
+	select PHYLIB
+	select REGMAP_MMIO
+	help
+	  This driver supports the ethernet MAC IP first used on
+	  MediaTek MT85** SoCs.
 
 endif #NET_VENDOR_MEDIATEK
